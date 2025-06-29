@@ -1,0 +1,19 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "better_wandering_trader",
+    "name": "better_wandering_trader",
+    "uuid":"fcbbfec8-d978-4c85-8b57-cc4353d1e40c",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 16, 0]
+  },
+  "modules":
+    [
+      {
+        "description": "better_wandering_trader",
+          "type": "data",
+          "uuid": "e3d7e047-37f4-404f-8b08-d54713327ad5",
+          "version": [1, 0, 0]
+      }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "creeper_no_break_blocks",
+    "name": "creeper_no_break_blocks",
+    "uuid":"167d08c1-17e8-440e-9dce-649cd3fee510",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 16, 0]
+  },
+  "modules":
+    [
+      {
+        "description": "creeper_no_break_blocks",
+          "type": "data",
+          "uuid": "412b2c09-3710-491f-abd5-4dbdb805a68a",
+          "version": [1, 0, 0]
+      }
+    ]
+}
