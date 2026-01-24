@@ -3,7 +3,7 @@
     {
       "groups": [
         {
-          "num_to_select": 2,
+          "num_to_select": 3,
           "trades": [
             {
               "wants": [
@@ -23,8 +23,23 @@
             {
               "wants": [
                 {
-                  "item": "minecraft:potatoes",
+                  "item": "minecraft:potato",
                   "quantity": 8
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ],
+              "max_uses": 8
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:nether_wart_block",
+                  "quantity": 4
                 }
               ],
               "gives": [
@@ -83,7 +98,7 @@
           ]
         },
         {
-          "num_to_select": 2,
+          "num_to_select": 3,
           "trades": [
             {
               "wants": [
@@ -94,8 +109,23 @@
               ],
               "gives": [
                 {
+                  "item": "minecraft:experience_bottle",
+                  "quantity": 32
+                }
+              ],
+              "max_uses": 8
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
                   "item": "minecraft:iron_nugget",
-                  "quantity": 13
+                  "quantity": 15
                 }
               ],
               "max_uses": 7
