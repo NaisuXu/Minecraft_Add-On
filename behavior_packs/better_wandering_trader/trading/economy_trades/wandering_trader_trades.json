@@ -113,21 +113,6 @@
                   "quantity": 32
                 }
               ],
-              "max_uses": 8
-            },
-            {
-              "wants": [
-                {
-                  "item": "minecraft:emerald",
-                  "quantity": 1
-                }
-              ],
-              "gives": [
-                {
-                  "item": "minecraft:iron_nugget",
-                  "quantity": 15
-                }
-              ],
               "max_uses": 7
             },
             {
@@ -139,11 +124,26 @@
               ],
               "gives": [
                 {
-                  "item": "minecraft:gold_nugget",
-                  "quantity": 7
+                  "item": "minecraft:iron_nugget",
+                  "quantity": 27
                 }
               ],
-              "max_uses": 6
+              "max_uses": 9
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:gold_nugget",
+                  "quantity": 25
+                }
+              ],
+              "max_uses": 8
             },
             {
               "wants": [
@@ -155,10 +155,10 @@
               "gives": [
                 {
                   "item": "minecraft:clay_ball",
-                  "quantity": 11
+                  "quantity": 33
                 }
               ],
-              "max_uses": 8
+              "max_uses": 11
             },
             {
               "wants": [
@@ -188,7 +188,7 @@
                   "quantity": 1
                 }
               ],
-              "max_uses": 1
+              "max_uses": 2
             },
             {
               "wants": [
@@ -219,7 +219,7 @@
               ],
               "gives": [
                 {
-                  "item": "minecraft:villager_spawn_egg",
+                  "item": "minecraft:zombie_villager_spawn_egg",
                   "quantity": 1
                 }
               ],
