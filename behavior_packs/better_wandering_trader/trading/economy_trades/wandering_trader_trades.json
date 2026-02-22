@@ -113,7 +113,7 @@
                   "quantity": 32
                 }
               ],
-              "max_uses": 7
+              "max_uses": 9
             },
             {
               "wants": [
@@ -128,7 +128,7 @@
                   "quantity": 27
                 }
               ],
-              "max_uses": 9
+              "max_uses": 11
             },
             {
               "wants": [
@@ -143,7 +143,7 @@
                   "quantity": 25
                 }
               ],
-              "max_uses": 8
+              "max_uses": 10
             },
             {
               "wants": [
@@ -155,10 +155,10 @@
               "gives": [
                 {
                   "item": "minecraft:clay_ball",
-                  "quantity": 33
+                  "quantity": 37
                 }
               ],
-              "max_uses": 11
+              "max_uses": 15
             },
             {
               "wants": [
@@ -208,13 +208,13 @@
           ]
         },
         {
-          "num_to_select": 5,
+          "num_to_select": 7,
           "trades": [
             {
               "wants": [
                 {
                   "item": "minecraft:emerald_block",
-                  "quantity": 16
+                  "quantity": 6
                 }
               ],
               "gives": [
@@ -223,7 +223,7 @@
                   "quantity": 1
                 }
               ],
-              "max_uses": 1
+              "max_uses": 3
             },
             {
               "wants": [
@@ -299,6 +299,36 @@
                 }
               ],
               "max_uses": 1
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 7
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:shulker_shell",
+                  "quantity": 2
+                }
+              ],
+              "max_uses": 1
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 5
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:popped_chorus_fruit",
+                  "quantity": 3
+                }
+              ],
+              "max_uses": 2
             },
             {
               "wants": [
