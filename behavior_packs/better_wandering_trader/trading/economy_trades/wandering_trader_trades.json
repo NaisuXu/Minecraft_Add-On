@@ -209,9 +209,9 @@
                   "functions": [
                     {
                       "function": "enchant_book_for_trading",
-                      "base_cost": 28,
-                      "base_random_cost": 40,
-                      "per_level_random_cost": 52,
+                      "base_cost": 32,
+                      "base_random_cost": 16,
+                      "per_level_random_cost": 16,
                       "per_level_cost": 2,
                       "enchantments": [{"name": "mending"}]
                     }
@@ -234,11 +234,11 @@
                   "functions": [
                     {
                       "function": "enchant_book_for_trading",
-                      "base_cost": 28,
-                      "base_random_cost": 40,
-                      "per_level_random_cost": 52,
-                      "per_level_cost": 2,
-                      "enchantments": [{"name": "frost_walker", "min": 1, "max": 1}]
+                      "base_cost": 24,
+                      "base_random_cost": 12,
+                      "per_level_random_cost": 12,
+                      "per_level_cost": 16,
+                      "enchantments": [{"name": "frost_walker", "min": 1, "max": 2}]
                     }
                   ]
                 }
@@ -259,11 +259,11 @@
                   "functions": [
                     {
                       "function": "enchant_book_for_trading",
-                      "base_cost": 28,
-                      "base_random_cost": 40,
-                      "per_level_random_cost": 52,
-                      "per_level_cost": 2,
-                      "enchantments": [{"name": "soul_speed", "min": 1, "max": 1}]
+                      "base_cost": 18,
+                      "base_random_cost": 8,
+                      "per_level_random_cost": 8,
+                      "per_level_cost": 16,
+                      "enchantments": [{"name": "soul_speed", "min": 1, "max": 3}]
                     }
                   ]
                 }
@@ -284,11 +284,11 @@
                   "functions": [
                     {
                       "function": "enchant_book_for_trading",
-                      "base_cost": 28,
-                      "base_random_cost": 40,
-                      "per_level_random_cost": 52,
-                      "per_level_cost": 2,
-                      "enchantments": [{"name": "swift_sneak", "min": 1, "max": 1}]
+                      "base_cost": 18,
+                      "base_random_cost": 8,
+                      "per_level_random_cost": 8,
+                      "per_level_cost": 16,
+                      "enchantments": [{"name": "swift_sneak", "min": 1, "max": 3}]
                     }
                   ]
                 }
@@ -309,11 +309,11 @@
                   "functions": [
                     {
                       "function": "enchant_book_for_trading",
-                      "base_cost": 28,
-                      "base_random_cost": 40,
-                      "per_level_random_cost": 52,
-                      "per_level_cost": 2,
-                      "enchantments": [{"name": "fortune", "min": 1, "max": 1}]
+                      "base_cost": 18,
+                      "base_random_cost": 8,
+                      "per_level_random_cost": 8,
+                      "per_level_cost": 16,
+                      "enchantments": [{"name": "fortune", "min": 1, "max": 3}]
                     }
                   ]
                 }
@@ -334,9 +334,9 @@
                   "functions": [
                     {
                       "function": "enchant_book_for_trading",
-                      "base_cost": 28,
-                      "base_random_cost": 40,
-                      "per_level_random_cost": 52,
+                      "base_cost": 32,
+                      "base_random_cost": 16,
+                      "per_level_random_cost": 16,
                       "per_level_cost": 2,
                       "enchantments": [{"name": "silk_touch"}]
                     }
@@ -464,6 +464,36 @@
                 }
               ],
               "max_uses": 2
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 6
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:blaze_rod",
+                  "quantity": 1
+                }
+              ],
+              "max_uses": 2
+            },
+            {
+              "wants": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 13
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:nether_wart",
+                  "quantity": 1
+                }
+              ],
+              "max_uses": 1
             },
             {
               "wants": [
